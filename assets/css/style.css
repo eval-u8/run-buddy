@@ -227,6 +227,10 @@ section {
     margin: 0 5px;
 }
 
+.checkbox-wrapper input, .radio-wrapper input {
+    opacity:0;
+}
+
 .checkbox-wrapper input + label::after, 
 .radio-wrapper input + label::after {
     content: none;
