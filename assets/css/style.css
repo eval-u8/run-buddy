@@ -27,7 +27,7 @@ flex-wrap: wrap;
 position: sticky;
 position: -webkit-sticky;
 top: 0;
-background-image: url(/assets/Images/hero-bg.jpeg);
+background-image: url("../Images/hero-bg.jpeg");
 background-size: cover;
 background-attachment: fixed;
 background-position: 80%;
@@ -110,7 +110,7 @@ padding: 60px;
 
 /* HERO STYLES START */
 .hero {
-background-image: url(/assets/Images/hero-bg.jpeg);
+background-image: url("../Images/hero-bg.jpeg");
 background-size: cover;
 display: flex;
 justify-content: center;
